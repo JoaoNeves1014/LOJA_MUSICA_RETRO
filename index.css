@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(241, 232, 219);
+}
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    color: #000000;
+    font-size: 2.5rem;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: rgb(78, 37, 37);
+    padding: 70px;
+    gap: 20px;
+    margin-bottom: 40px;
+    
+}
+
+.navlink{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    margin-left: 500px;
+}
+.navlink a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    
+}
+
+.VINILS{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+.pai{
+    display: flex;
+    margin-left: 800px;
+
+}
+.mãe{
+    display: flex;
+    margin-left: 800px;
+}
+.card{
+  background-color: rgb(153, 68, 68); 
+  border-radius: 6px;
+  padding: 10px;
+  width: 450px;
+  gap: 35px;
+  box-shadow: 0px 6px 8px black;
+  margin: 20px;
+}
+img {
+margin: 10px;
+padding: 0;
+position: relative;
+width: 100%;
+height: 300px;
+object-fit: cover;
+border-radius: 8px;
+}
+.Subtitulo{
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #ffffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    margin: 8px 0;
+    padding: 0;
+    border: none;
+    text-align: center;
+    color: #f8f8f8;
+    font-size: 15px;
+}
+button {
+    margin: 15px 0 5px 0;
+    padding: 10px 15px;
+    border: none;
+    background-color: #f3f3f3;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 6px;
+    width: 100%;
+    float: none;
+}
+footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #ffffff;
+    font-size: 40px;
+    background-color: #573b3b;
+    padding: 20px;
+}
+.foter{
+    color: #ffffff;
+
+}
